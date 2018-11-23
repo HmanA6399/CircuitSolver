@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CircuitsSolver", "CircuitsSolver\CircuitsSolver.vcxproj", "{9A6CFCCD-991D-43DC-8442-F61F6CDD8A43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A6CFCCD-991D-43DC-8442-F61F6CDD8A43}.Debug|x64.ActiveCfg = Debug|x64
+		{9A6CFCCD-991D-43DC-8442-F61F6CDD8A43}.Debug|x64.Build.0 = Debug|x64
+		{9A6CFCCD-991D-43DC-8442-F61F6CDD8A43}.Debug|x86.ActiveCfg = Debug|Win32
+		{9A6CFCCD-991D-43DC-8442-F61F6CDD8A43}.Debug|x86.Build.0 = Debug|Win32
+		{9A6CFCCD-991D-43DC-8442-F61F6CDD8A43}.Release|x64.ActiveCfg = Release|x64
+		{9A6CFCCD-991D-43DC-8442-F61F6CDD8A43}.Release|x64.Build.0 = Release|x64
+		{9A6CFCCD-991D-43DC-8442-F61F6CDD8A43}.Release|x86.ActiveCfg = Release|Win32
+		{9A6CFCCD-991D-43DC-8442-F61F6CDD8A43}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64ABF7BC-D296-44DE-864E-0A8DADE3E22F}
+	EndGlobalSection
+EndGlobal
