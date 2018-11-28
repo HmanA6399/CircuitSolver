@@ -16,11 +16,11 @@
     <Filter Include="Circuit Classes">
       <UniqueIdentifier>{fc85d6f5-5254-4328-8c54-9f084f413f7c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="operations">
+      <UniqueIdentifier>{fe40c709-8237-4a2f-aeda-f2c5d31b04d1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CircuitsSolver.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="V.cpp">
       <Filter>Circuit Classes</Filter>
     </ClCompile>
@@ -53,6 +53,12 @@
     </ClCompile>
     <ClCompile Include="Matrix.cpp">
       <Filter>Math Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\operation classes\matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CircuitsSolver.cpp">
+      <Filter>operations</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -91,6 +97,9 @@
     </ClInclude>
     <ClInclude Include="V.h">
       <Filter>Circuit Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\operation classes\matrix.h">
+      <Filter>operations</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
