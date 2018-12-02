@@ -1,93 +1,86 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-    <Filter Include="Math Classes">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Circuit Classes">
-      <UniqueIdentifier>{fc85d6f5-5254-4328-8c54-9f084f413f7c}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="V.cpp">
-      <Filter>Circuit Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="R.cpp">
-      <Filter>Circuit Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="Node.cpp">
-      <Filter>Circuit Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="Loop.cpp">
-      <Filter>Circuit Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="L.cpp">
-      <Filter>Circuit Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="I.cpp">
-      <Filter>Circuit Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="Element.cpp">
-      <Filter>Circuit Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="C.cpp">
-      <Filter>Circuit Classes</Filter>
+    <ClCompile Include="Manager.cpp" />
+    <ClCompile Include="ComplexMatrix.cpp">
+      <Filter>Math Classes</Filter>
     </ClCompile>
     <ClCompile Include="LinearSystem.cpp">
       <Filter>Math Classes</Filter>
     </ClCompile>
-    <ClCompile Include="Manager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ComplexMatrix.cpp">
+    <ClCompile Include="..\operation classes\matrix.cpp">
       <Filter>Math Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C.cpp">
+      <Filter>Circuit Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Element.cpp">
+      <Filter>Circuit Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="I.cpp">
+      <Filter>Circuit Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="L.cpp">
+      <Filter>Circuit Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Loop.cpp">
+      <Filter>Circuit Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="V.cpp">
+      <Filter>Circuit Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="R.cpp">
+      <Filter>Circuit Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Circuit Elements</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Math.h">
+    <ClInclude Include="Manager.h" />
+    <ClInclude Include="ComplexMatrix.h">
       <Filter>Math Classes</Filter>
     </ClInclude>
     <ClInclude Include="LinearSystem.h">
       <Filter>Math Classes</Filter>
     </ClInclude>
-    <ClInclude Include="Node.h">
-      <Filter>Circuit Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="Loop.h">
-      <Filter>Circuit Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="Element.h">
-      <Filter>Circuit Classes</Filter>
+    <ClInclude Include="..\operation classes\matrix.h">
+      <Filter>Math Classes</Filter>
     </ClInclude>
     <ClInclude Include="C.h">
-      <Filter>Circuit Classes</Filter>
+      <Filter>Circuit Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Element.h">
+      <Filter>Circuit Elements</Filter>
     </ClInclude>
     <ClInclude Include="I.h">
-      <Filter>Circuit Classes</Filter>
+      <Filter>Circuit Elements</Filter>
     </ClInclude>
     <ClInclude Include="L.h">
-      <Filter>Circuit Classes</Filter>
+      <Filter>Circuit Elements</Filter>
     </ClInclude>
-    <ClInclude Include="R.h">
-      <Filter>Circuit Classes</Filter>
+    <ClInclude Include="Loop.h">
+      <Filter>Circuit Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Math Classes</Filter>
     </ClInclude>
     <ClInclude Include="V.h">
-      <Filter>Circuit Classes</Filter>
+      <Filter>Circuit Elements</Filter>
     </ClInclude>
-    <ClInclude Include="Manager.h">
-      <Filter>Math Classes</Filter>
+    <ClInclude Include="R.h">
+      <Filter>Circuit Elements</Filter>
     </ClInclude>
-    <ClInclude Include="ComplexMatrix.h">
-      <Filter>Math Classes</Filter>
+    <ClInclude Include="Node.h">
+      <Filter>Circuit Elements</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Math Classes">
+      <UniqueIdentifier>{64b184df-c1df-4319-9ed4-aed1efd6e234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Circuit Elements">
+      <UniqueIdentifier>{ecf78502-a4f2-4d7a-b174-092afb57d0e2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
