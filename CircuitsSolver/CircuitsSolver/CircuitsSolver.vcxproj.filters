@@ -18,9 +18,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CircuitsSolver.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="V.cpp">
       <Filter>Circuit Classes</Filter>
     </ClCompile>
@@ -48,21 +45,15 @@
     <ClCompile Include="LinearSystem.cpp">
       <Filter>Math Classes</Filter>
     </ClCompile>
-    <ClCompile Include="Complex.cpp">
-      <Filter>Math Classes</Filter>
+    <ClCompile Include="Manager.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Matrix.cpp">
+    <ClCompile Include="ComplexMatrix.cpp">
       <Filter>Math Classes</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Math.h">
-      <Filter>Math Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="Complex.h">
-      <Filter>Math Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="Matrix.h">
       <Filter>Math Classes</Filter>
     </ClInclude>
     <ClInclude Include="LinearSystem.h">
@@ -91,6 +82,12 @@
     </ClInclude>
     <ClInclude Include="V.h">
       <Filter>Circuit Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>Math Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ComplexMatrix.h">
+      <Filter>Math Classes</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

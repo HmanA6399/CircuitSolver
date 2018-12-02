@@ -1,10 +1,11 @@
 #pragma once
 #include "Element.h"
-class R :
-	public Element
+#include "Node.h"
+
+class R :  public Element
 {
 public:
-	R();
+	R(int n1, int n2, float val, float ph);
 	~R();
 };
 

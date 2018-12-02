@@ -4,7 +4,7 @@ class C :
 	public Element
 {
 public:
-	C();
+	C(int n1, int n2, float val, float ph);
 	~C();
 };
 

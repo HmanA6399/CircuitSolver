@@ -1,8 +1,9 @@
 #pragma once
-class L
+#include"Element.h"
+class L : public Element
 {
 public:
-	L();
+	L(int n1, int n2, float val, float ph);
 	~L();
 };
 

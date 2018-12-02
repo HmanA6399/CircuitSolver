@@ -152,30 +152,29 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="C.cpp" />
-    <ClCompile Include="CircuitsSolver.cpp" />
-    <ClCompile Include="Complex.cpp" />
     <ClCompile Include="Element.cpp" />
     <ClCompile Include="I.cpp" />
     <ClCompile Include="L.cpp" />
     <ClCompile Include="LinearSystem.cpp" />
     <ClCompile Include="Loop.cpp" />
-    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="ComplexMatrix.cpp" />
     <ClCompile Include="Node.cpp" />
     <ClCompile Include="R.cpp" />
+    <ClCompile Include="Manager.cpp" />
     <ClCompile Include="V.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C.h" />
-    <ClInclude Include="Complex.h" />
     <ClInclude Include="Element.h" />
     <ClInclude Include="I.h" />
     <ClInclude Include="L.h" />
     <ClInclude Include="LinearSystem.h" />
     <ClInclude Include="Loop.h" />
     <ClInclude Include="Math.h" />
-    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="ComplexMatrix.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="R.h" />
+    <ClInclude Include="Manager.h" />
     <ClInclude Include="V.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
