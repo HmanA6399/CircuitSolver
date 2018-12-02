@@ -1,10 +1,11 @@
 #pragma once
-#include "I.h"
-#include "V.h"
-#include "L.h"
-#include "R.h"
-#include "C.h"
-#include "Node.h"
+#include "../Elements/I.h"
+#include "../Elements/V.h"
+#include "../Elements/L.h"
+#include "../Elements/R.h"
+#include "../Elements/C.h"
+#include "../Elements/Node.h"
+#include"../Math/Math.h"
 #include <iostream>
 using namespace std;
 
